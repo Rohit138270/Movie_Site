@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('back1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.logo img{
+    height: 5vh;
+}
+/*.logo h3{
+    color: rgb(120, 242, 242);
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    margin-top: -55px;
+    margin-left: 50px;
+} */
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: lavender
+}
+.nav ul li a.active,
+.nav ul li a:hover{
+    color: teal;
+    font-weight: bolder;
+}
+.user{
+    cursor: pointer;
+    color: teal;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.user a{
+    text-decoration: none;
+    color: lavender;
+    background-color: #8AAAE5;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.user a:hover{
+    background-color: black;
+    color: teal;
+    font-weight: bolder;
+}
+.user i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 14px;
+}
+ .heropage{
+    position: absolute;
+    color: lavender;
+    margin-top: 100px;
+    margin-left: 100px;
+ }
+ .inside-heropage{
+    line-height: 1.2;
+ }
+ .inside-heropage h1{
+    font-size: 40px;
+ }
+.inside-heropage p{
+    font-size: 17px;
+}
+span{
+    color: #8AAAE5;
+    font-weight: bold;
+}
+.line1{
+    height: 2px;
+    color: rgb(18,241,241);
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height: 320px;   
+    float: right;
+    border-radius: 10px;
+}
+.btn1{
+    margin-top: 30px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background: teal;
+    border-radius: 15px;
+}
+.btn1 a:hover{
+    background: black;
+    color: teal;
+}
+.btn1 i{
+    color: black;
+    padding: 0px 10px;
+}
+.btn1 i:hover{
+    color: teal;  
+}
+.latest-movies{
+
+    position: absolute;
+    width: 97.3%;
+    height: 100%;
+    background-color: black; 
+    margin-top: 500px;
+    padding: 0px 20px;
+    
+    
+}
+.latest-movies h1{
+    font-size: 20px;
+    color: #8AAAE5;
+
+}
+.latest-container{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin-top: 30px;
+}
+.latest-inside img{
+    height: 180px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    border-radius: 20px;
+}
+.latest-inside img:hover{
+    transform: scale(1.2,1.2);
+}
+.heading{
+    color: white;
+    line-height: 1.5;
+}
+.heading h4{
+    font-size: 15px;
+}
+.heading h6{
+    font-size: 12px;
+}
+.btn2{
+    margin-top: -40px;
+    margin-left: 150px;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 13px;
+    background: teal;
+    padding: 7px 7px;
+    color: white;
+    border-radius: 10%;
+
+} 
+
+.bollywood-movies{
+    position: absolute;
+    width: 97.3%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20px;
+    color: white;
+    margin-top: 950px;
+
+}
+.bollywood-movies h1{
+    font-size: 20px;
+    color: #8AAAE5;
+}
+.bollywood-container{
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-around; */
+   
+    align-items: center;
+}
+.bollywood-inside h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+.bollywood-inside img{
+    height: 370px;
+    width: 240px;
+    border-radius: 30px;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+
+}
+.bollywood-inside img:hover{
+    transform: scale(1.2,1.2);
+    
+}
+.imdb{
+    background: teal;
+    border-radius: 25px;
+    position: absolute;
+    padding: 10px 10px;
+    color: white;
+    margin-top: -80px;
+    margin-left: 120px;
+    font-weight: bolder;
+}
+.more{
+    position: absolute;
+    margin-top: 970px;
+    margin-left: 1340px
+}
+.more a{
+    color: teal;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.footer{
+    position: absolute;
+    margin-top: 1680px;
+    height: 20vh;
+    color: #fff;
+    background: #141414;
+    width: 100%;
+}
+.logopart img{
+    height: 5vh;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* .logopart h1{
+    color: teal;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 120px;
+} */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+    
+}
+.socials{
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: teal;
+    cursor: pointer;
+}
+.btn3{
+    margin-right: 60px;
+    margin-top: 30px;
+}
+.btn3 a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: black;
+    background: teal;
+    border-radius: 30px;
+}
+.btn3 a:hover{
+    padding: 10px 25px;
+    color: black;
+    background-color: #8AAAE5;
+}
